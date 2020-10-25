@@ -5,17 +5,24 @@
 
 2. Enter the project folder
 
-3. Install javascript dependencies and packages
+3. Setup database configurations in .env file
+
+4. Install composer
+```
+composer install
+```
+
+5. Install javascript dependencies and packages
 ```
 npm install
 ```
 
-4. Run migrations
+6. Run migrations
 ```
 php artisan migrate
 ```
 
-5. Install Passport
+7. Install Passport
 ```
 php artisan passport:install
 ```
